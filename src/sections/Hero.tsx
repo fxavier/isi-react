@@ -21,19 +21,14 @@ export const Hero: React.FC = () => {
       <div className="relative z-10 min-h-[calc(100vh-5rem)] md:min-h-[calc(100vh-6rem)] flex items-center">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="text-center">
-            {/* Logo with Premium Effect */}
+            {/* Logo */}
             <div className="mb-12 fade-in">
-              <div className="relative inline-block">
-                <div className="absolute inset-0 bg-gradient-hero rounded-3xl blur-2xl transform scale-125 opacity-40 animate-pulse"></div>
-                <div className="relative bg-white/95 dark:bg-neutral-900/95 backdrop-blur-xl rounded-3xl p-8 shadow-premium border border-neutral-200/50 dark:border-white/10">
-                  <img
-                    src="/logo.jpg"
-                    alt="ISI & Serviços - Informática, Serigrafia, Imobiliária & Limpeza"
-                    className="mx-auto h-24 md:h-28 lg:h-32 w-auto object-contain filter drop-shadow-lg"
-                    loading="eager"
-                  />
-                </div>
-              </div>
+              <img
+                src="/logo.png"
+                alt="ISI & Serviços - Informática, Serigrafia, Imobiliária & Limpeza"
+                className="mx-auto h-24 md:h-28 lg:h-32 w-auto object-contain"
+                loading="eager"
+              />
             </div>
 
             {/* Hero Headline */}

@@ -42,9 +42,9 @@ export const Navbar: React.FC = () => {
           {/* Logo */}
           <div className="flex items-center">
             <img
-              src="/logo.jpg"
+              src="/logo.png"
               alt="ISI & Serviços - Informática, Serigrafia, Imobiliária & Limpeza"
-              className="h-14 md:h-16 lg:h-20 w-auto object-contain transition-all duration-300 hover:scale-105"
+              className="h-14 md:h-16 lg:h-20 w-auto object-contain"
               loading="eager"
             />
           </div>

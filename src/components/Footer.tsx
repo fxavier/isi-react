@@ -44,7 +44,7 @@ export const Footer: React.FC = () => {
           <div className="space-y-4">
             <div>
               <img
-                src="/logo.jpg"
+                src="/logo.png"
                 alt="ISI & Serviços - Informática, Serigrafia, Imobiliária & Limpeza"
                 className="h-20 md:h-24 w-auto object-contain mb-4"
                 loading="lazy"
