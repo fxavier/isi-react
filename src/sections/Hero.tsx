@@ -24,19 +24,14 @@ export const Hero: React.FC = () => {
             {/* Logo with Premium Effect */}
             <div className="mb-12 fade-in">
               <div className="relative inline-block">
-                <div className="absolute inset-0 bg-gradient-hero rounded-2xl blur-xl transform scale-110 opacity-30"></div>
-                <div className="relative bg-gradient-hero rounded-2xl p-6 shadow-premium">
+                <div className="absolute inset-0 bg-gradient-hero rounded-3xl blur-2xl transform scale-125 opacity-40 animate-pulse"></div>
+                <div className="relative bg-white/95 dark:bg-neutral-900/95 backdrop-blur-xl rounded-3xl p-8 shadow-premium border border-neutral-200/50 dark:border-white/10">
                   <img
                     src="/logo.jpg"
-                    alt="ISI & Serviços"
-                    className="mx-auto h-16 w-auto mb-4 filter drop-shadow-2xl brightness-200"
-                    onError={(e) => {
-                      e.currentTarget.style.display = 'none';
-                    }}
+                    alt="ISI & Serviços - Informática, Serigrafia, Imobiliária & Limpeza"
+                    className="mx-auto h-24 md:h-28 lg:h-32 w-auto object-contain filter drop-shadow-lg"
+                    loading="eager"
                   />
-                  <div className="text-sm font-medium text-white tracking-wider">
-                    ISI & SERVIÇOS, LDA
-                  </div>
                 </div>
               </div>
             </div>

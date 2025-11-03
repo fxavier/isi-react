@@ -38,22 +38,15 @@ export const Navbar: React.FC = () => {
         : 'bg-transparent backdrop-blur-sm'
     }`}>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16 md:h-20">
+        <div className="flex items-center justify-between h-20 md:h-24">
           {/* Logo */}
-          <div className="flex items-center space-x-3">
+          <div className="flex items-center">
             <img
               src="/logo.jpg"
-              alt="ISI & Serviços"
-              className="h-10 w-auto"
-              onError={(e) => {
-                e.currentTarget.style.display = 'none';
-              }}
+              alt="ISI & Serviços - Informática, Serigrafia, Imobiliária & Limpeza"
+              className="h-14 md:h-16 lg:h-20 w-auto object-contain transition-all duration-300 hover:scale-105"
+              loading="eager"
             />
-            <span className={`font-bold text-xl ${
-              isScrolled ? 'text-neutral-900 dark:text-white' : 'text-neutral-900 dark:text-white'
-            }`}>
-              ISI & Serviços
-            </span>
           </div>
 
           {/* Desktop Navigation */}

@@ -42,16 +42,13 @@ export const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="space-y-4">
-            <div className="flex items-center space-x-3">
+            <div>
               <img
                 src="/logo.jpg"
-                alt="ISI & Serviços"
-                className="h-10 w-auto"
-                onError={(e) => {
-                  e.currentTarget.style.display = 'none';
-                }}
+                alt="ISI & Serviços - Informática, Serigrafia, Imobiliária & Limpeza"
+                className="h-20 md:h-24 w-auto object-contain mb-4"
+                loading="lazy"
               />
-              <span className="font-bold text-xl">ISI & Serviços</span>
             </div>
             <p className="text-neutral-300 leading-relaxed">
               Empresa 100% moçambicana especializada em soluções integradas de tecnologia, 
